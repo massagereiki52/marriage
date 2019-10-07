@@ -1,0 +1,164 @@
+@charset "UTF-8";
+html {
+  background: url(./couple.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, div, p, header, main, nav, ul, li, figure, figcaption, section {
+  box-sizing: border-box;
+  position: relative;
+}
+
+figure {
+  width: 300px;
+  margin: 20px auto 0px;
+  padding: 1em;
+  display: block;
+  float: right;
+  clear: both;
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: top;
+  float: right;
+  clear: both;
+  text-align: center;
+}
+
+/*opacity and transparency 0-1
+100 can see
+0 can't see through*/
+
+figure img {
+  display: block;
+  width: 100%;
+}
+
+/*image formats
+bitmap
+gif does 8 bit
+jpg does 24 bit 16.7 million colors
+png 16.7 million colors plus transparencies
+svg newest can use illistrator vector scaleable based on
+numerical data/ Code can animate them. Use with caution.
+*/
+
+/*bg attachment*/
+
+body {
+  background-attachment: fixed;
+  padding: 50px;
+}
+
+body section:nth-of-type(1) {
+  width: 1500px;
+  height: 5000px;
+  margin: auto;
+  background-color: white;
+  /* background-image: url("./heartframeblack.png"); */
+  background-size: cover;
+  /*background-attachment: fixed;*/
+  background-repeat: space;
+  /*repeat round: not used very often
+  Repeat space adds space around images
+  use no repeat and repeat no stretching*/
+  background-position: center left;
+  background-clip: content-box;
+  background-clip: border-box;
+  background-size: cover;
+  font: 100%/1.4;
+  opacity: 0.7;
+}
+
+body section:nth-of-type(2) {
+  width: 1500px;
+  height: 300px;
+  /*margin: 20px auto;*/
+  /*background-color: purple;*/
+  rgba(255, 255, 255, 0.5);
+  /*width: 800px;*/
+  margin: auto;
+  background-color: white;
+  background-image: url("./heartframeblack.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-clip: content-box;
+  background-clip: border-box;
+  background-size: cover;
+}
+
+body section:nth-of-type(3) {
+  width: 1500px;
+  height: 800px;
+  /*margin: 20px auto;*/
+  /*background-color: purple;*/
+  rgba(255, 255, 255, 0.5);
+  /*width: 800px;*/
+  margin: auto;
+  background-color: white;
+  background-image: url(./heartframeblack.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-clip: content-box;
+  background-clip: border-box;
+  background-size: cover;
+}
+
+body section:nth-of-type(4) {
+  width: 1500px;
+  height: 800px;
+  /*margin: 20px auto;*/
+  /*background-color: purple;*/
+  rgba(255, 255, 255, 0.5);
+  /*width: 800px;*/
+  margin: auto;
+  background-color: white;
+  border-image: url("./heartframeblack.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center left;
+  background-clip: content-box;
+  background-clip: border-box;
+  background-size: cover;
+}
+
+/*specify border
+Rounded corners origionally doesn't
+make text fit.
+Pdding Top right bottom left play with numbers
+until more amount of padding on a box.
+img borders: background transparent white
+../ means go up a directory (img) if in an
+img folder*/
+
+body section:nth-of-type(2) figure:nth-of-type(3) p {
+  background-color: white;
+}
+
+body section:nth-of-type(3) h1 {
+  color: black;
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: green -10px -10px 6px, yellow 10px 10px 6px;
+}
+
+/*Text shadows and font shadows
+x, y, axis, specify color and opaxity*/
+
+body section:nth-of-type(3) figure:nth-of-type(2) {
+  box-shadow: inset cyan -20px 20px 10px, inset cyan 20px -20px 10px;
+}
+
+/*Box shadow does the same as Font shadow
+click (insomething)*/

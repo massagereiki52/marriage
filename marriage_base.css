@@ -1,0 +1,222 @@
+@charset "UTF-8";
+header {
+  background-color: rgba(36, 183, 203, 0.91);
+  color: white;
+  position: absolute;
+  display: block;
+  margin-bottom: 200px;
+  /*height: 200px;*/
+}
+
+header img {
+  width: 100%;
+}
+
+footer {
+  background-color: #009;
+  font-size: 48px;
+  padding-top: 0.5em;
+  text-align: center;
+}
+
+nav {
+  background-color: rgba(36, 183, 203, 0.91);
+  height: 20px;
+  padding-top: 0.5em;
+}
+
+nav ul {
+  width: 60;
+  margin: auto;
+}
+
+nav li {
+  float: left;
+  text-align: center;
+  width: 25%;
+}
+
+nav a {
+  background-color: rgba(36, 183, 203, 0.91);
+  color: black;
+  display: block;
+  height: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: yellow;
+  display: block;
+}
+
+/*text formatting*/
+
+body {
+  color: black;
+}
+
+header h1 {
+  color: White;
+  font-size: 2.5em;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  text-outline: 6px 6px brown;
+  text-shadow: 4px 4px 6px hsl(266, 53%, 68%);
+}
+
+h2 {
+  padding:10%;
+  color: black;
+  text-align:center;
+  font-size: 2em;
+  text-transform: capitalize;
+
+}
+
+/* h2#wedding {
+  padding: 2.5%;
+  color: black;
+  text-align: center;
+  font-size: 1.25em;
+  text-transform: capitalize;
+}
+
+h2#after {
+  padding: 2.5%;
+  color: black;
+  text-align: center;
+  font-size: 1.25em;
+  text-transform: capitalize;
+} */
+
+/* h2#furbabies {
+  /* padding: 2%;
+  color: black;
+  text-align: center;
+  font-size: 1.25em;
+  text-transform: capitalize; */
+  /* margin-top: 5em;
+
+} */
+
+h3 {
+  padding: 10%;
+  color: black;
+  text-align: center;
+  font-size: 1.75em;
+  text-transform: capitalize;
+}
+
+/* h3#cyrus {
+  padding: 0%, 3%, 0%, 0%;
+  color: black;
+  text-align: center;
+  font-size: 1.25em;
+  text-transform: capitalize;
+    /* margin-top: 2em; */
+ }
+
+/* h3#skiddy { */
+  /* padding: 0%, 4%, 0%, 0%; */
+  /* color: black; */
+  /* text-align: center;
+  font-size: 1.25em;
+  text-transform: capitalize; */
+/* } */
+
+/* h3#percy {
+  padding-top: 0%, 4%, 0%, 0%;
+  color: black;
+  text-align:left;
+  font-size: 1.25em;
+  text-transform: capitalize;
+} */
+
+p {
+  padding-top: 2%;
+  color: black;
+  padding: 30%;
+  margin-left: 27em;
+  margin-right: 25em;
+}
+
+footer {
+  clear: both;
+  background-color: hsl(266, 53%, 68%);
+  padding: 5px, 0px;
+  opacity: 0.7;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+img {
+  display: block;
+  margin: auto;
+  padding: 5px;
+  width: 250px;
+  height: 250px;
+  float: right;
+  clear: both;
+}
+
+img#prom {
+  display: block;
+  margin: auto;
+  padding: 5px;
+  /* width: 300px;
+  height: 250px; */
+  float: right;
+  clear: both;
+}
+
+.filter figure:nth-of-type(1) img#prom {
+  filter: grayscale(0.5);
+}
+
+img#anniversary {
+  display: block;
+  margin: auto;
+  padding: 5px;
+  width: 300px;
+  height: 250px;
+  float: right;
+  clear: both;
+}
+
+}
+
+section {
+  padding: 5px;
+  list-style-position: inside;
+  list-style-type: square;
+  margin: 1em;
+  text-align: center;
+}
+
+iframe {
+  width: inherit;
+  height: auto;
+  float: left;
+}
+
+figure {
+  display: table;
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: bottom;
+}
+
+/*Don't use a lot of margins*/
